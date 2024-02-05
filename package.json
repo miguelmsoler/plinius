@@ -36,6 +36,7 @@
   },
   "homepage": "https://github.com/miguelmsoler/plinius#readme",
   "devDependencies": {
+    "@types/handlebars": "^4.1.0",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
@@ -46,5 +47,10 @@
     "eslint-plugin-promise": "^6.1.1",
     "prettier": "^3.2.5",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "findit2": "^2.2.3",
+    "handlebars": "^4.7.8",
+    "ignore": "^5.3.1"
   }
 }
