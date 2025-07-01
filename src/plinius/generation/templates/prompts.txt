@@ -1,0 +1,13 @@
+PROMPT PLANTILLA:
+Vamos a empezar a generar documentación de pfacturasuy utilizando una plantilla. Te voy a proveer la plantilla y completaremos la sección representada por apiDocumentationDetails. Cómo es una sección muy larga quiero que me des la estructura de la sección con items nuevos a ir rellenando. Los items van con un nombre de variable entre llaves como por ejemplo {{coreClasses}}. Dame la respuesta en una caja con código markdown.
+Aquí está la plantilla:
+{{plantilla}}
+
+PROMPT HOJA:
+Dame en una caja de código markdown el contenido para la variable CFEDescription en esta plantilla. Asegúrate de dar sólamente el código que va entre las llaves de la variable que estamos reemplazando:
+
+De acuerdo a tu respuesta, el reemplazo queda:
+
+- **CFE:** - **CFE:** La entidad `CFE` representa un Comprobante Fiscal Electrónico, que es un documento digital que cumple con los requisitos legales y fiscales para documentar la transferencia de bienes, la prestación de servicios, o ambas. Incluye información sobre el emisor, el receptor, los detalles de los bienes o servicios proporcionados, y los totales de la transacción. Es una parte central del sistema de facturación electrónica `pFacturasUY` y se utiliza para generar y enviar documentos fiscales de manera electrónica, así como para consultar su estado posteriormente.
+
+Como verás, eso no está bien. Cómo debió haber sido mi prompt para que lo hicieras bien?
